@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+img {
+  cursor: pointer;
+}
+
 #modal {
   background: rgba(56, 56, 56, 0.56);
   position: fixed;
