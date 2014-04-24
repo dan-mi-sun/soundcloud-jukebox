@@ -1,0 +1,47 @@
+/* Modal Styles */
+
+html, body {
+  height: 100%;
+}
+
+#modal {
+  background: rgba(56, 56, 56, 0.56);
+  position: fixed;
+  top: 0;
+  left 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-window {
+  background: #FFF;
+  width: 500px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #333;
+  overflow: scroll;
+}
+
+.close {
+  float: right;
+  background: url(../images/close-button.jpg) no-repeat top left;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  text-indent: -9999px;
+  cursor: pointer; 
+}
+
+/*
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+*/

@@ -4,6 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title>My Amazing SoundCloud Catalog</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+
     <script src="http://connect.soundcloud.com/sdk.js"></script>
   </head>
 
@@ -14,6 +17,12 @@
     <input type="text" id="search" onchange="doSearch()" />
 
     <div id="catalog">
+    </div>
+
+    <div id="modal" class="hidden">
+      <div class="modal-window">
+        <b class="close">Close</b>
+      </div>
     </div>
 
     <script>
@@ -47,10 +56,18 @@
         
         newImage.setAttribute("src", image);
 
-        //newImage.setAttribute("b", onclick="showInfo(this)");
+        //newImage.setAttribute("onclick=", "info");
+        //newImage.setAttribute("class", trackInfo)
+        
 
         displayArt.appendChild(newImage);
       }
+      function hideModal(){ 
+        console.log("hideModal()");
+        var modal = document.getElementById("modal");
+
+        modal.setAttribute("class", "hidden");
+}
     </script>
   </body>
 
