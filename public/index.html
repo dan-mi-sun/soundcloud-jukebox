@@ -30,7 +30,8 @@
         // Search soundcloud for artists
         SC.get('/tracks', { q: searchTerm, license: 'cc-by-sa' }, function(tracks) {
             for(track in tracks) {
-              console.log(tracks[track]);
+              console.log(tracks[track]["artwork_url"]);
+
             }
           }
         );
