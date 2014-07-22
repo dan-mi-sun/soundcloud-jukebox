@@ -1,18 +1,34 @@
-# Soundcloud Jukebox App
+# We Got Coders Week 2 Coursework
 
-# INSTALL
+We Got Coders is a consultancy that provides experts in agile web development, specialising in Ruby technology.
 
-* Fork and clone this repo as usual
-* Update the client app ID in the script element inside of index.html to be your SoundCloud API key
+http://wegotcoders.com/
 
-# TODO
+###Aim
+Use Soundcloud API to make a Jukebox App using JavaSript
 
-* Add code to the for loop to dynamically add image elements to the page every time the textbox changes
+### Brief
 
-* Add code to make a popup div element appear when you click on an individual track, with more information about the track
+You can find the brief for this project here:
 
-* Add code to add a player on the popup
+https://github.com/dan-mi-sun/soundcloud-jukebox/blob/master/BRIEF.md
 
-* Refactor your code so that you create an Object of type Track, which knows how to render itself as HTML
+### Notes
+http://dan-mi-sun.github.io/wegotcoders/week2day7-intro-to-javascript/
 
-* Refactor your code to put your tracks in 3D
+####Notes from WeGotCoders:
+http://dan-mi-sun.github.io/
+
+http://dan-mi-sun.github.io/wegotcoders/why-code-with-we-got-coders/
+
+http://dan-mi-sun.github.io/wegotcoders/reflections-on-8-weeks-with-we-got-coders/
+
+http://dan-mi-sun.github.io/wegotcoders/reflections-on-12-weeks-with-we-got-coders/
+
+
+####Contact
+twitter: @dan_mi_sun
+
+gmail: dan.mi.sun@gmail.com
+
+uk.linkedin.com/in/danielsundigital/
